@@ -28,7 +28,7 @@ class AuthController {
       /* Get machine to machine token from auth0 */
       // const jwtToken = await AuthService.authM2MToken(request, '/user/detail');
 
-      /* Get user profile data from curl request from activate-im server */
+      /* Get user profile data from curl request */
       const user = await userService.getUserProfile(
         request.headers.authorization,
         decoded.email,

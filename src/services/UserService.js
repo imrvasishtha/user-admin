@@ -2,7 +2,7 @@ const User = require('../models/user');
 
 class UserService {
   /**
-   * Get User data from the help of curl request from activate_im server
+   * Get User data from the help of curl request
    * @param {*} jwtToken
    * @param {*} loggedUserEmail
    */

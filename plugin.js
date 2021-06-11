@@ -76,7 +76,7 @@ let plugins = [
     options: {
       validVersions: process.env.VALID_API_VERSIONS.split(','),
       defaultVersion: Number(process.env.DEFAULT_API_VERSION),
-      vendorName: 'activate-im',
+      vendorName: 'user-admin',
     },
   },
 ];

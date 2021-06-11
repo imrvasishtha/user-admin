@@ -1,5 +1,5 @@
 {
-  "name": "activate-im-api",
+  "name": "user-admin",
   "version": "1.0.0",
   "description": "A user authentication/management microservice  ",
   "main": "index.js",
@@ -15,22 +15,18 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ActivateMedia/activate-im.git"
-  },
   "keywords": [
     "authentication",
     "user-management",
     "user",
     "auth"
   ],
-  "author": "Activate Media",
+  "author": "imrvasishtha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ActivateMedia/activate-im/issues"
+    "url": "https://github.com/imrvasishtha/user-admin/issues"
   },
-  "homepage": "https://github.com/ActivateMedia/activate-im#readme",
+  "homepage": "https://github.com/imrvasishtha/user-admin#readme",
   "dependencies": {
     "@elastic/elasticsearch": "^7.7.1",
     "@hapi/boom": "^9.1.2",
