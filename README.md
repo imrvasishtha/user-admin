@@ -35,4 +35,4 @@ I have added .env.development, it should work for you, generally we don't includ
 To Run API `npm run start`
 
 ## Documentation
-I have added swagger documentation for api, it will work on http://[PORTADDRESS]/documentation (e.g. http://localhost:9000/documentation)
+I have added swagger documentation for APIs, it will work on http://[PORTADDRESS]/documentation (e.g. http://localhost:9000/documentation)
